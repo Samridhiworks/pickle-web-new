@@ -28,19 +28,19 @@ var swiper = new Swiper(".mySwiper", {
 });
 
 //popup code starts here
-// let popup = document.getElementById('popup')
-// let close = document.getElementById('close')
-// let body = document.body;
+let popup = document.getElementById('popup')
+let close = document.getElementById('close')
+let body = document.body;
 
-// function openpopup(){
-//   popup.style.display = 'flex';
-//   body.classList.add("body-fixed");
-// }
+function openpopup(){
+  popup.style.display = 'flex';
+  body.classList.add("body-fixed");
+}
 
-// function closepopup(){
-//   popup.style.display = 'none'
-//   body.classList.remove("body-fixed");
-// }
+function closepopup(){
+  popup.style.display = 'none'
+  body.classList.remove("body-fixed");
+}
 
 //sidebar code starts here
 $(document).ready(function(){
